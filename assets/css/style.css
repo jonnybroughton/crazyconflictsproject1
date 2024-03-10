@@ -9,7 +9,9 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 100vh;
+    color:#ffffff;
 }
+/*HEADER STYLES*/
 header{
 background-color: darkgreen;
 padding: 0 1rem;
@@ -17,15 +19,80 @@ position:fixed;
 z-index: 99;
 width:100%;
 box-shadow: 0 2px 2px black;
+display:flex;
+justify-content: space-between;
+align-items: baseline;
 }
-#menu-toggle{
+header a{
+    color:#ffffff;
+    font-family:'Stardos Stencil';
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+#menu{
+    list-style-type: none;
+    font: 110%;
+}
+#menu>li{
+    margin-bottom: 1em;
+}
+/*NAVBAR STYLES*/
+nav{
+    position:absolute;
+    background-color: darkgreen;
+    width:100%;
+    left:0;
+    padding:0 1rem;
+    box-shadow: 0 2px 2px black;
+    display:none;
+    top:100%;
+}
+#nav-toggle:checked~nav{
+    display:block;
+}
+#nav-toggle{
     display:none;
 }
+.nav-toggle-label{
+    font-size: 2rem;
+}
+/*MAIN STYLES*/
 main{
 background-color: #3e7a32;
 flex: 1 0 auto;
+margin-top: 89.5px;
 }
+/*FOOTER STYLES*/
 footer{
 background-color: grey;
 }
-/*HEADER MEDIA QUERIES*/
+@media (min-width:366px){
+    main{
+        margin-top:45.5px;
+    }
+/*TABLET MEDIA QUERIES 768PX AND UP*/
+@media screen and (min-width:768px){
+    /*HEADER QUERIES*/
+    nav{
+        display:block;
+        position:relative;
+        box-shadow:none;
+        width:fit-content;
+        padding-right:1rem;
+    }
+    #menu{
+        display:flex;
+    }
+    #menu li{
+        padding-left:1rem;
+    }
+    .nav-toggle-label{
+        display:none;
+    }
+    /*MAIN CONTENT TABLET QUERIES*/
+    main{
+        margin-top:53.5px;
+    }
+}
+
+
