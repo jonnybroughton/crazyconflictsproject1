@@ -66,6 +66,15 @@ margin-top: 89.5px;
 footer{
 background-color: grey;
 }
+#social-networks a{
+    list-style-type:none;
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+/*ALL MEDIA QUERIES*/
 @media (min-width:366px){
     main{
         margin-top:45.5px;
@@ -94,5 +103,3 @@ background-color: grey;
         margin-top:53.5px;
     }
 }
-
-
