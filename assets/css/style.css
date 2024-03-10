@@ -65,12 +65,23 @@ margin-top: 89.5px;
 /*FOOTER STYLES*/
 footer{
 background-color: grey;
+width:100%;
+position:fixed;
+bottom:0;
+font-size: 120%;
+}
+#social-networks{
+    display:flex;
+    justify-content: center;
+    list-style-type:none;
 }
 #social-networks a{
-    list-style-type:none;
     text-decoration: none;
     color:inherit;
+    margin: 0 2.5rem;
 }
+
+
 
 
 
