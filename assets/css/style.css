@@ -28,6 +28,7 @@ header a{
     font-family:'Stardos Stencil';
     text-decoration: none;
     letter-spacing: 2px;
+    padding-top:5px;
 }
 #menu{
     list-style-type: none;
@@ -60,10 +61,18 @@ nav{
 main{
 background-color: #3e7a32;
 flex: 1 0 auto;
-margin-top: 89.5px;
+margin-top: 93px;
 background-image: url('/assets/images/peakpx.jpg');
 background-size: cover;
 background-position: center;
+display:flex;
+flex: column;
+}
+#hero-image {
+        width:100vw;
+        height:40vh;
+        object-fit: cover;
+        object-position: center 75%;
 }
 /*FOOTER STYLES*/
 footer{
@@ -91,7 +100,7 @@ font-size: 120%;
 /*ALL MEDIA QUERIES*/
 @media (min-width:366px){
     main{
-        margin-top:45.5px;
+        margin-top:49px;
     }
 /*TABLET MEDIA QUERIES 768PX AND UP*/
 @media screen and (min-width:768px){
@@ -114,6 +123,6 @@ font-size: 120%;
     }
     /*MAIN CONTENT TABLET QUERIES*/
     main{
-        margin-top:53.5px;
+        margin-top:60.5px;
     }
 }}
