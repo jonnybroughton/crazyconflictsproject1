@@ -65,6 +65,7 @@ margin-top: 93px;
 background-image: url('/assets/images/peakpx.jpg');
 background-size: cover;
 background-position: center;
+padding-bottom: 40px;
 }
 #hero-image {
     width: 100vw;
@@ -118,6 +119,7 @@ background-position: center;
     margin-top: 20px; 
     margin-bottom: 20px;
     font-family: 'Stardos Stencil';
+    letter-spacing: 0.5rem;
 }
 
 .battle-list {
@@ -136,6 +138,7 @@ background-position: center;
     box-sizing: border-box;
     background-color: #3e7a32;
     height:150px;
+    position: relative;
 }
 
 .battle div {
@@ -152,8 +155,9 @@ background-position: center;
 
 .battle img {
     margin-left: auto;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 9.5rem;
+    max-height:9.5rem;
+    padding-right:5px;
 }
 /*FOOTER STYLES*/
 footer{
