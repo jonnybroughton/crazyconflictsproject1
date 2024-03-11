@@ -69,10 +69,43 @@ display:flex;
 flex: column;
 }
 #hero-image {
-        width:100vw;
-        height:40vh;
-        object-fit: cover;
-        object-position: center 75%;
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center 70%; 
+    z-index: 1;
+}
+
+#hero {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: inherit;
+    z-index: 2;
+}
+
+.hero-text p {
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Stardos Stencil';
+    background-color: rgba(0,0,0,0.5);
+}
+.introduction{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:0 20px;
+    text-align: center;
+}
+.introduction p{
+    max-width: 800px;
+    margin-bottom: 20px;
 }
 /*FOOTER STYLES*/
 footer{
@@ -96,33 +129,47 @@ font-size: 120%;
 
 
 
-
 /*ALL MEDIA QUERIES*/
-@media (min-width:366px){
+@media (min-width: 366px) {
+    main {
+        margin-top: 49px;
+    }
+}
+@media (min-width:366px) and (max-width:372px) {
     main{
-        margin-top:49px;
+        margin-top:93px;
     }
-/*TABLET MEDIA QUERIES 768PX AND UP*/
-@media screen and (min-width:768px){
-    /*HEADER QUERIES*/
-    nav{
-        display:block;
-        position:relative;
-        box-shadow:none;
-        width:fit-content;
-        padding-right:1rem;
+}
+
+/* TABLET MEDIA QUERIES 768PX AND UP */
+@media screen and (min-width: 768px) {
+    /* HEADER QUERIES */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
-    #menu{
-        display:flex;
+    #menu {
+        display: flex;
     }
-    #menu li{
-        padding-left:1rem;
+    #menu li {
+        padding-left: 1rem;
     }
-    .nav-toggle-label{
-        display:none;
+    .nav-toggle-label {
+        display: none;
     }
-    /*MAIN CONTENT TABLET QUERIES*/
-    main{
-        margin-top:60.5px;
+    /* MAIN CONTENT TABLET QUERIES */
+    main {
+        margin-top: 60.5px;
     }
-}}
+    
+    
+}
+@media screen and (max-width: 768px) {
+    .hero-text {
+        top: 80px; 
+        transform: translate(-50%, -50%);
+        margin-top:20px;
+    }}
