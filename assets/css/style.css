@@ -159,6 +159,74 @@ padding-bottom: 40px;
     max-height:9.5rem;
     padding-right:5px;
 }
+/*BATTLE PAGE STYLES*/
+.battle-container{
+    display:flex;
+}
+.battle-text{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.battle-text h2{
+    font-family: 'Stardos Stencil';
+}
+.battle-text p{
+    padding-bottom: 10px;
+    font-size: 120%;
+}
+.battle-visuals{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+  }
+  
+  #battle-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #map-location{
+    font-family: 'Stardos Stencil';
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  #battle-image{
+    width:100%;
+    height:auto;
+    padding-bottom: 20px;
+  }
+  .table-container {
+    margin-top: 20px; 
+    padding-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse; /* Collapse borders so they don't double up */
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center; 
+    background-color: rgba(0,0,0,0.5);
+}
+
 /*FOOTER STYLES*/
 footer{
 background-color: grey;
@@ -224,4 +292,9 @@ font-size: 120%;
         top: 80px; 
         transform: translate(-50%, -50%);
         margin-top:20px;
-    }}
+    }
+    .battle-container{
+        flex-direction: column-reverse;
+    }
+}
+  
