@@ -238,12 +238,12 @@ th, td {
 }
 #aboutus-container{
     display:grid;
-    height:100vh;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
 }
 
 .aboutus-item{
+    flex:1;
     justify-content: center;
     max-width:100%;
     padding:20px;
@@ -261,6 +261,52 @@ aboutus-map{
 }
 #aboutus-map-label{
     font-size:120%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; 
+    font-size: 120%;
+    background-color: rgba(0,0,0,0.5);
+    padding:20px;
+}
+
+#review-label{
+    margin-bottom: 10px;
+    font-size:120%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 200px; 
+}
+
+.submit-button {
+    width: 100%;
+}
+#aboutus-list{
+    width:100%;
+    list-style-type:none ;
+}
+#aboutus-list li{
+    padding-bottom: 50px;
+    letter-spacing: 5px;
+}
+#aboutus-list i{
+    padding-right: 10px;
+}
+#aboutus-list a{
+    font-size:2rem;
+    text-decoration: none;
+    color:inherit;
+    width:100%;
 }
 /*FOOTER STYLES*/
 footer{
