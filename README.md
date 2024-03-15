@@ -51,3 +51,40 @@ Crazy Conflicts is an upcoming historical documentation website, which has a mai
 
 ![Screenshot](<Screenshot 2024-03-15 at 18.35.54.png>)
 - No errors on the battle pages
+
+![Screenshot](<Screenshot 2024-03-15 at 18.41.06.png>)
+- No CSS errors
+
+### Deployment
+- The website was deployed using Github Pages. The link to the live site is https://jonnybroughton.github.io/crazyconflictsproject1/index.html
+
+### Media Credits
+-  [The background image](https://www.peakpx.com/)
+
+- [The hero image](https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L2xyL3drNTAzMjcxNC1pbWFnZS5qcGc.jpg)
+
+- The Waterloo battle list image https://picryl.com/media/denis-dighton-1792-1827-the-battle-of-waterloo-18-june-1815-1175995-national-1e5207
+https://picryl.com/download-image?src=https%3A%2F%2Fcdn2.picryl.com%2Fphoto%2F1816%2F12%2F31%2Fdenis-dighton-1792-1827-the-battle-of-waterloo-18-june-1815-1175995-national-1e5207-1024.jpg&name=denis-dighton-1792-1827-the-battle-of-waterloo-18-june-1815-1175995-national-1e5207&ext=.jpg
+
+- The San Jacinto battle list image https://www.flickr.com/
+https://live.staticflickr.com/8331/8079073410_5f05b0ba0e_c_d.jpg
+
+- The Taiping Rebellion battle list image https://upload.wikimedia.org/wikipedia/commons/8/87/Regaining_the_Provincial_City_Anqing2.jpg
+
+- The Battle of Stalingrad battle list image https://www.shutterstock.com/image-illustration/battle-stalingrad-world-war-2-600nw-249573106.jpg
+
+- The Battle of Kursk list image https://www.artmajeur.com/medias/hd/n/a/narykov/artwork/9910642_3_e3sjhl1gltm.jpg
+
+- The Tet Offensive battle list image https://i.pinimg.com/originals/20/99/5f/20995fbc2e8dc3dbb3e28df7ef4ebade.jpg
+
+- The Waterloo battle image https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Wellington_at_Waterloo_Hillingford.jpg/640px-Wellington_at_Waterloo_Hillingford.jpg
+
+- The San Jacinto battle image https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/the-battle-of-san-jacinto-henry-arthur-mcardle.jpg
+
+- The Taiping Rebellion battle image https://sothebys-com.brightspotcdn.com/dims4/default/0041280/2147483647/strip/true/crop/1552x878+224+0/resize/1156x654!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2Fdf%2F7d%2F21b4556f4a7f8df04bd22a47747c%2Fbattle-painting-nian-rebellion.jpg
+
+- The Stalingrad battle image https://allthatsinteresting.com/wordpress/wp-content/uploads/2019/06/first-aid-in-battle.jpg
+
+- The Kursk battle image https://static.themoscowtimes.com/image/article_1360/81/dfsrgvsd.jpg
+
+- The Tet Offensive battle image https://cloudfront-us-east-1.images.arcpublishing.com/archetype/FKPKXTZONRFKBDAOFDMMNIKBIE.jpg
