@@ -62,7 +62,7 @@ main{
 background-color: #3e7a32;
 flex: 1 0 auto;
 margin-top: 93px;
-background-image: url('assets/images/peakpx.jpg');
+background-image: url('../assets/images/peakpx.jpg');
 background-size: cover;
 background-position: center;
 padding-bottom: 40px;
