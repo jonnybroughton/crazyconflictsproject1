@@ -44,3 +44,9 @@ Crazy conflicts is an up and coming website designed to give users fast, easily 
 - In the screenshot above, it shows multiple renderings of the site viewed from different size viewports, and you can see that the website has been designed using display:flex and display:grid CSS stylings, to allow the content to shift around and still appear presentable, even if viewed on very small screens such as the Samsung Galaxy Fold. Additionally, features such as the nav bar changes into a 'burger bar' dropdown menu which appears over the content, allowing the user to navigate this way instead of having the navbar links take up the page at all times.
 ### Validator Testing
 - The website has been vetted using the W3C Markup Validation service, to check for any errors within the HTML. There are no errors within the HTML
+- The website's CSS styling has also been vetted using the W3C Jigsaw CSS Validation service, and again there are no errors to show.
+## Deployment 
+The site was deployed to GitHub pages. The steps to deploy the website are:
+- In your GitHub repository, navigate to the Settings tab
+- In the code and automation section, click pages
+- Use the 'Branches' dropdown menu and select a publishing source, and click save
