@@ -165,12 +165,6 @@ padding-bottom: 40px;
     padding-right:5px;
 }
 /*BATTLE PAGE STYLES*/
-#back-button a{
-    color:#ffffff;
-    background-color: #3e7a32;
-    text-decoration:none;
-    font-family:'Stardos Stencil'
-}
 #back-button{
     border:0px;
     width:120px;
@@ -182,7 +176,8 @@ padding-bottom: 40px;
     margin-left:10px;
     display:inline-block;
     border-radius: 20px;
-    padding-left;
+    color:#ffffff;
+    font-family:'Stardos Stencil'
 }
 .battle-container{
     display:flex;
