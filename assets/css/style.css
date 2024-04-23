@@ -165,6 +165,25 @@ padding-bottom: 40px;
     padding-right:5px;
 }
 /*BATTLE PAGE STYLES*/
+#back-button a{
+    color:#ffffff;
+    background-color: #3e7a32;
+    text-decoration:none;
+    font-family:'Stardos Stencil'
+}
+#back-button{
+    border:0px;
+    width:120px;
+    height:60px;
+    background-color: #3e7a32;
+    font-size: 150%;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:10px;
+    display:inline-block;
+    border-radius: 20px;
+    padding-left;
+}
 .battle-container{
     display:flex;
     padding: 0 10px
@@ -260,7 +279,7 @@ th, td {
     padding-bottom: 20px;
     font-size:120%;
 }
-aboutus-map{
+#aboutus-map{
     max-width:100%;
     max-height:100%;
 }

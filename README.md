@@ -29,6 +29,7 @@ Crazy Conflicts is an up and coming website designed to give users fast, easily 
 ### Battle Pages
 - From each battle list page era, the user can discover individual battles, which has been split into two sections, a description on the left (or appearing first if viewed on a tablet or phone) and visuals on the right to support this description, making the site easy to read and understand, and seperating these out reduces cognitive overload to the user
 - The visuals contain a Google Maps iframe of where the battle took place, giving them an understanding of it's location on the planet, an image or artist's rendition of the battle to make them understand the reality of the horrors that took place, and finally a table that provides the user fast facts such as who the leaders of each army were, how big the armies were, etc, making important statistics easy to obtain
+- Page contains a back button at the top to allow the user easy navigation back to the list of battles from the era in which they are viewing
 
 ![screenshot](assets/readme-screenshots/aboutusscreenshot.png)
 ### About Us Page
